@@ -58,4 +58,11 @@ Commandes utilisées
         symfony console doctrine:database:create
     Creation d'un user
         symfony console make:user User
+    Migration
+        symfony console make:migration 
+        symfony console doctrine:migrations:migrate
+    Creation register form
+        symfony console make:registration-form
+
+        symfony console make:auth
     
