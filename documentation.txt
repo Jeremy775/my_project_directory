@@ -24,6 +24,8 @@ Installation des packages
             require twig
             require symfony/orm-pack
             require --dev symfony/maker-bundle (no , yes)
+            require easycorp/easyadmin-bundle
+                    symfony/security-bundle
 ________________________________________________________
 
 Creation Database
@@ -36,6 +38,17 @@ Creation Database
         DATABASE_URL=mysql://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_NAME}
 symfony console doctrine:database:create
 
+________________________________________________________
+
+SYSTEME D'AUTHENTIFICATION
+
+creation d'un user 
+    symfony consoler make:user User
+
+
+
+________________________________________________________
+
 Commandes utilisées
     Affiche la liste des routes 
         symfony console debug:router
@@ -43,4 +56,6 @@ Commandes utilisées
         symfony console make:controller HomeController
     Creation DB
         symfony console doctrine:database:create
+    Creation d'un user
+        symfony console make:user User
     
