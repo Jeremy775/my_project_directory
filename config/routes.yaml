@@ -7,7 +7,7 @@ kernel:
     type: annotation
 
 index:
-    path: /
+    path: /test
     controller: App\Controller\TestController::index
 
 
