@@ -1,0 +1,40 @@
+{% extends "base.html.twig" %}
+
+{% block title %}
+	Home page
+{% endblock %}
+
+{% block body %}
+	<section class="produits">
+		<article>
+			<h2>Titre de l'article</h2>
+			<div class="metadata">Ecrit le ... a ... dans la categorie ...</div>
+			<div class="content">
+				<img src="https://picsum.photos/200" alt="">
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit tenetur pariatur veniam voluptatum autem exercitationem.</p>
+				<p>Ad facilis voluptatibus placeat illum unde, repellendus maxime eius necessitatibus, cumque ratione enim saepe omnis!</p>
+				<a href="{{ path('product_show')}}" class="btn btn-primary">Lire la suite</a>
+			</div>
+		</article>
+		<article>
+			<h2>Titre de l'article</h2>
+			<div class="metadata">Ecrit le ... a ... dans la categorie ...</div>
+			<div class="content">
+				<img src="https://picsum.photos/200" alt="">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum neque consectetur magni deleniti, eveniet quia?</p>
+				<p>Suscipit delectus omnis recusandae cumque dolorem in laboriosam illum sequi, ad reprehenderit similique, voluptatum necessitatibus!</p>
+				<a href="" class="btn btn-primary">Lire la suite</a>
+			</div>
+		</article>
+		<article>
+			<h2>Titre de l'article</h2>
+			<div class="metadata">Ecrit le ... a ... dans la categorie ...</div>
+			<div class="content">
+				<img src="https://picsum.photos/200" alt="">
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias dicta doloremque, adipisci qui distinctio veniam!</p>
+				<p>Explicabo, iusto earum. Expedita atque corrupti recusandae, explicabo eum nam amet praesentium possimus fugit eaque.</p>
+				<a href="" class="btn btn-primary">Lire la suite</a>
+			</div>
+		</article>
+	</section>
+{% endblock %}

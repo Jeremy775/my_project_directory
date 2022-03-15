@@ -45,8 +45,11 @@ SYSTEME D'AUTHENTIFICATION
 creation d'un user 
     symfony consoler make:user User
 
+Creation register form
+        symfony console make:registration-form
 
-
+        symfony console make:auth
+RegistrationController 
 ________________________________________________________
 
 Commandes utilisées
